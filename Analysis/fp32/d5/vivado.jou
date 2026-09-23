@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sun Sep 13 17:30:50 2026
+# Process ID         : 1868489
+# Current directory  : /home/leon/University/Bachelorarbeit/Analysis/fp32/d5
+# Command line       : vivado -mode batch -source /home/leon/University/Bachelorarbeit/bfloat16-fpu/build.tcl -tclargs FPMul /home/leon/University/Bachelorarbeit/bfloat16-fpu/generated/ xc7z020clg400-1 5.0 fp32_d5_run03
+# Log file           : /home/leon/University/Bachelorarbeit/Analysis/fp32/d5/vivado.log
+# Journal file       : /home/leon/University/Bachelorarbeit/Analysis/fp32/d5/vivado.jou
+# Running On         : Nix-Los
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : AMD Ryzen 5 PRO 5650U with Radeon Graphics
+# CPU Frequency      : 1111.720 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 15526 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 15526 MB
+# Available Virtual  : 6789 MB
+#-----------------------------------------------------------
+source /home/leon/University/Bachelorarbeit/bfloat16-fpu/build.tcl

@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Sep 14 13:53:22 2026
+# Process ID         : 2811178
+# Current directory  : /home/leon/University/Bachelorarbeit/Analysis/fp32/d3
+# Command line       : vivado
+# Log file           : /home/leon/University/Bachelorarbeit/Analysis/fp32/d3/vivado.log
+# Journal file       : /home/leon/University/Bachelorarbeit/Analysis/fp32/d3/vivado.jou
+# Running On         : Nix-Los
+# Platform           : unknown
+# Operating System   : unknown
+# Processor Detail   : AMD Ryzen 5 PRO 5650U with Radeon Graphics
+# CPU Frequency      : 3392.401 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 15526 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 15526 MB
+# Available Virtual  : 8154 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/leon/University/Bachelorarbeit/Analysis/fp32/d3/vivado_proj_fp32_d3_run01/bench_fp32_d3_run01.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_project /home/leon/University/Bachelorarbeit/Analysis/fp32/d2/vivado_proj_fp32_d2_run01/bench_fp32_d2_run01.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+open_run impl_1
+current_project bench_fp32_d3_run01
+open_run impl_1
+current_project bench_fp32_d2_run01
+close_design
+open_run synth_1 -name synth_1
+current_project bench_fp32_d3_run01
+current_project bench_fp32_d2_run01
+open_run impl_1
+close_project
+open_project /home/leon/University/Bachelorarbeit/Analysis/fp32/d2/vivado_proj_fp32_d2_run01/bench_fp32_d2_run01.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+close_project
